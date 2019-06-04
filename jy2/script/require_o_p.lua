@@ -1,0 +1,7 @@
+require "o_animation"
+require "o_event"
+require "o_image"
+require "o_font"
+require "o_fontstyle"
+require "o_typedef"
+require "o_misc"

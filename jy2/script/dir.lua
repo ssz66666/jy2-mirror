@@ -1,0 +1,15 @@
+local _dir={}
+_dir[0x2000000]="fonts"
+_dir[0x3000000]="framelist"
+_dir[0x4000000]="particle"
+_dir[0x5000000]="spine"
+_dir[0x6000000]="image"
+_dir[0x6010000]="image/UI"
+_dir[0x6040000]="image/act"
+_dir[0x6050000]="image/eft"
+_dir[0x6020000]="image/head"
+_dir[0x6030000]="image/item"
+_dir[0x6060000]="image/map"
+_dir[0x6070000]="image/shuzi"
+_dir[0x9000000]="audio"
+return _dir
