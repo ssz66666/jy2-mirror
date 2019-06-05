@@ -71,6 +71,7 @@ t['通用_结束菜单动画'] = function(node)
     node.visible = true;
     G.Tween('alpha', 1500, node, 255)
     G.wait_time(1500);
+    node.alpha = 255;
     for i = 1, 5 do
         local sub_ui = ui[i];
         if sub_ui then
@@ -81,6 +82,13 @@ t['通用_结束菜单动画'] = function(node)
         end
     end
     G.wait_time(200);
+    for i = 1, 5 do
+        local sub_ui = ui[i];
+        if sub_ui then
+            sub_ui.alpha = 255;
+            sub_ui.visible = true;
+        end
+    end
 end
 --type=private
 t['通知系统_显示飘字'] = function(node, audio_音频, int_延时)
