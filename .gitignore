@@ -6,3 +6,4 @@ jy2/tool
 _obj_*.lua
 profile/
 doc/
+backup
